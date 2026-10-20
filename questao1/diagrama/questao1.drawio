@@ -1,0 +1,199 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="questao1" name="Questão 1">
+    <mxGraphModel dx="636" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2288" pageHeight="997" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7CH66tBH4X8VVX9MY51m-2" edge="1" parent="1" source="Passagem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="EmissorFerroviario" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Passagem" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="339.98" width="395.98" x="1200.55" y="394.4" as="geometry" />
+        </mxCell>
+        <mxCell id="Passagem_fundo" connectable="0" parent="Passagem" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="339.98" width="395.98" as="geometry" />
+        </mxCell>
+        <mxCell id="Passagem_nome" connectable="0" parent="Passagem" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=3;whiteSpace=wrap;" value="abstract&#xa;Passagem" vertex="1">
+          <mxGeometry height="52" width="395.98" as="geometry" />
+        </mxCell>
+        <mxCell id="Passagem_m0" connectable="0" parent="Passagem" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-passageiro : String" vertex="1">
+          <mxGeometry height="24" width="395.98" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Passagem_m1" connectable="0" parent="Passagem" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-tarifa : double" vertex="1">
+          <mxGeometry height="24" width="395.98" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Passagem_separador" connectable="0" parent="Passagem" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="395.98" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="Passagem_m2" connectable="0" parent="Passagem" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="#Passagem(passageiro : String, tarifa : double)" vertex="1">
+          <mxGeometry height="24" width="395.98" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="Passagem_m3" connectable="0" parent="Passagem" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getPassageiro() : String" vertex="1">
+          <mxGeometry height="24" width="395.98" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="Passagem_m4" connectable="0" parent="Passagem" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getTarifa() : double" vertex="1">
+          <mxGeometry height="24" width="395.98" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Passagem_m5" connectable="0" parent="Passagem" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=2;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getModal() : String" vertex="1">
+          <mxGeometry height="24" width="395.98" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="Passagem_m6" connectable="0" parent="Passagem" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=2;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+calcularTaxaEmbarque() : double" vertex="1">
+          <mxGeometry height="24" width="395.98" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="Passagem_m7" connectable="0" parent="Passagem" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=2;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getDocumentosExigidos() : String" vertex="1">
+          <mxGeometry height="24" width="395.98" y="232" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorPassagem" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="149.79" width="532.52" x="412.1" y="367.4" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorPassagem_fundo" connectable="0" parent="EmissorPassagem" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="149.79" width="532.52" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorPassagem_nome" connectable="0" parent="EmissorPassagem" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=3;whiteSpace=wrap;" value="abstract&#xa;EmissorPassagem" vertex="1">
+          <mxGeometry height="52" width="532.52" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorPassagem_m0" connectable="0" parent="EmissorPassagem" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=2;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="#criarPassagem(passageiro : String, tarifa : double) : Passagem" vertex="1">
+          <mxGeometry height="24" width="532.52" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorPassagem_m1" connectable="0" parent="EmissorPassagem" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+emitir(passageiro : String, tarifa : double) : String" vertex="1">
+          <mxGeometry height="24" width="532.52" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemAerea" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="213.19" width="445.05" x="1762.8" y="164.9" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemAerea_fundo" connectable="0" parent="PassagemAerea" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="213.19" width="445.05" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemAerea_nome" connectable="0" parent="PassagemAerea" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="PassagemAerea" vertex="1">
+          <mxGeometry height="40" width="445.05" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemAerea_m0" connectable="0" parent="PassagemAerea" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+PassagemAerea(passageiro : String, tarifa : double)" vertex="1">
+          <mxGeometry height="24" width="445.05" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemAerea_m1" connectable="0" parent="PassagemAerea" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getModal() : String" vertex="1">
+          <mxGeometry height="24" width="445.05" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemAerea_m2" connectable="0" parent="PassagemAerea" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+calcularTaxaEmbarque() : double" vertex="1">
+          <mxGeometry height="24" width="445.05" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemAerea_m3" connectable="0" parent="PassagemAerea" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getDocumentosExigidos() : String" vertex="1">
+          <mxGeometry height="24" width="445.05" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorAereo" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="118.1" width="532.52" x="1132.3" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorAereo_fundo" connectable="0" parent="EmissorAereo" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="118.1" width="532.52" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorAereo_nome" connectable="0" parent="EmissorAereo" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="EmissorAereo" vertex="1">
+          <mxGeometry height="40" width="532.52" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorAereo_m0" connectable="0" parent="EmissorAereo" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="#criarPassagem(passageiro : String, tarifa : double) : Passagem" vertex="1">
+          <mxGeometry height="24" width="532.52" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemRodoviaria" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="213.19" width="483.49" x="1743.3" y="416.9" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemRodoviaria_fundo" connectable="0" parent="PassagemRodoviaria" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="213.19" width="483.49" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemRodoviaria_nome" connectable="0" parent="PassagemRodoviaria" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="PassagemRodoviaria" vertex="1">
+          <mxGeometry height="40" width="483.49" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemRodoviaria_m0" connectable="0" parent="PassagemRodoviaria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+PassagemRodoviaria(passageiro : String, tarifa : double)" vertex="1">
+          <mxGeometry height="24" width="483.49" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemRodoviaria_m1" connectable="0" parent="PassagemRodoviaria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getModal() : String" vertex="1">
+          <mxGeometry height="24" width="483.49" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemRodoviaria_m2" connectable="0" parent="PassagemRodoviaria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+calcularTaxaEmbarque() : double" vertex="1">
+          <mxGeometry height="24" width="483.49" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemRodoviaria_m3" connectable="0" parent="PassagemRodoviaria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getDocumentosExigidos() : String" vertex="1">
+          <mxGeometry height="24" width="483.49" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorRodoviario" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="118.1" width="532.52" x="1132.3" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorRodoviario_fundo" connectable="0" parent="EmissorRodoviario" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="118.1" width="532.52" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorRodoviario_nome" connectable="0" parent="EmissorRodoviario" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="EmissorRodoviario" vertex="1">
+          <mxGeometry height="40" width="532.52" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorRodoviario_m0" connectable="0" parent="EmissorRodoviario" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="#criarPassagem(passageiro : String, tarifa : double) : Passagem" vertex="1">
+          <mxGeometry height="24" width="532.52" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemFerroviaria" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="213.19" width="483.46" x="1743.3" y="676.1" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemFerroviaria_fundo" connectable="0" parent="PassagemFerroviaria" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="213.19" width="483.46" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemFerroviaria_nome" connectable="0" parent="PassagemFerroviaria" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="PassagemFerroviaria" vertex="1">
+          <mxGeometry height="40" width="483.46" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemFerroviaria_m0" connectable="0" parent="PassagemFerroviaria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+PassagemFerroviaria(passageiro : String, tarifa : double)" vertex="1">
+          <mxGeometry height="24" width="483.46" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemFerroviaria_m1" connectable="0" parent="PassagemFerroviaria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getModal() : String" vertex="1">
+          <mxGeometry height="24" width="483.46" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemFerroviaria_m2" connectable="0" parent="PassagemFerroviaria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+calcularTaxaEmbarque() : double" vertex="1">
+          <mxGeometry height="24" width="483.46" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="PassagemFerroviaria_m3" connectable="0" parent="PassagemFerroviaria" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getDocumentosExigidos() : String" vertex="1">
+          <mxGeometry height="24" width="483.46" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorFerroviario" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="118.1" width="532.52" x="1130" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorFerroviario_fundo" connectable="0" parent="EmissorFerroviario" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="118.1" width="532.52" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorFerroviario_nome" connectable="0" parent="EmissorFerroviario" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="EmissorFerroviario" vertex="1">
+          <mxGeometry height="40" width="532.52" as="geometry" />
+        </mxCell>
+        <mxCell id="EmissorFerroviario_m0" connectable="0" parent="EmissorFerroviario" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="#criarPassagem(passageiro : String, tarifa : double) : Passagem" vertex="1">
+          <mxGeometry height="24" width="532.52" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_0" edge="1" parent="1" source="PassagemAerea" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=0;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.02095;exitY=0.99724;exitPerimeter=1;entryX=1.013;entryY=0.457;entryPerimeter=0;entryDx=0;entryDy=0;" target="Passagem" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_1" edge="1" parent="1" source="EmissorAereo" style="rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=0;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="EmissorPassagem" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_2" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;entryX=0.00000;entryY=0.27769;entryPerimeter=1;" target="PassagemAerea" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relacao_4" edge="1" parent="1" source="PassagemRodoviaria" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=0;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.57824;exitPerimeter=1;entryX=1.00000;entryY=0.45432;entryPerimeter=1;" target="Passagem" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_5" edge="1" parent="1" source="EmissorRodoviario" style="rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=0;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.10372;exitY=1.00000;exitPerimeter=1;entryX=1.00000;entryY=0.28544;entryPerimeter=1;" target="EmissorPassagem" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_6" edge="1" parent="1" source="EmissorRodoviario" style="rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.91347;exitY=1.00000;exitPerimeter=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PassagemRodoviaria" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_8" edge="1" parent="1" source="PassagemFerroviaria" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=0;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.07685;exitPerimeter=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Passagem" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_10" edge="1" parent="1" source="EmissorFerroviario" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1.00000;exitY=0.32974;exitPerimeter=1;entryX=0.00000;entryY=0.58751;entryPerimeter=1;" target="PassagemFerroviaria" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_12" edge="1" parent="1" source="EmissorPassagem" style="edgeStyle=none;rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1.00000;exitY=0.80121;exitPerimeter=1;entryX=0.00000;entryY=0.39823;entryPerimeter=1;" target="Passagem" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7CH66tBH4X8VVX9MY51m-1" edge="1" parent="1" source="EmissorFerroviario" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;defaultLabelBackgroundColor=gap;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="EmissorPassagem" value="">
+          <mxGeometry relative="1" width="160" x="-0.0098" y="-4" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="840" y="625.4" as="sourcePoint" />
+            <mxPoint x="1000" y="625.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
