@@ -1,0 +1,349 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="questao2" name="Questão 2">
+    <mxGraphModel dx="1483" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2751" pageHeight="1733" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pais" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="82.9" width="77" x="540" y="955.3" as="geometry" />
+        </mxCell>
+        <mxCell id="Pais_fundo" connectable="0" parent="Pais" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="82.9" width="77" as="geometry" />
+        </mxCell>
+        <mxCell id="Pais_nome" connectable="0" parent="Pais" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="interface&#xa;Pais" vertex="1">
+          <mxGeometry height="49.89351851851852" width="77" as="geometry" />
+        </mxCell>
+        <mxCell id="Brasil" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="90" width="87.11" x="883.85" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="Brasil_fundo" connectable="0" parent="Brasil" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="90" width="87.11" as="geometry" />
+        </mxCell>
+        <mxCell id="Brasil_nome" connectable="0" parent="Brasil" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="Brasil" vertex="1">
+          <mxGeometry height="30.48264182895851" width="87.11" as="geometry" />
+        </mxCell>
+        <mxCell id="Brasil_m0" connectable="0" parent="Brasil" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-Brasil()" vertex="1">
+          <mxGeometry height="18.289585097375106" width="87.11" y="33.53090601185436" as="geometry" />
+        </mxCell>
+        <mxCell id="Chile" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="108.8" width="83.07" x="885.8" y="1011.2" as="geometry" />
+        </mxCell>
+        <mxCell id="Chile_fundo" connectable="0" parent="Chile" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="108.8" width="83.07" as="geometry" />
+        </mxCell>
+        <mxCell id="Chile_nome" connectable="0" parent="Chile" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="Chile" vertex="1">
+          <mxGeometry height="36.85012701100762" width="83.07" as="geometry" />
+        </mxCell>
+        <mxCell id="Chile_m0" connectable="0" parent="Chile" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-Chile()" vertex="1">
+          <mxGeometry height="22.110076206604575" width="83.07" y="40.53513971210838" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaMatricula" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="181.49" width="414.64" x="710" y="494.61" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaMatricula_fundo" connectable="0" parent="FabricaMatricula" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="181.49" width="414.64" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaMatricula_nome" connectable="0" parent="FabricaMatricula" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="interface&#xa;FabricaMatricula&lt;P extends Pais&gt;" vertex="1">
+          <mxGeometry height="52" width="414.64" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaMatricula_m0" connectable="0" parent="FabricaMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarDocumentoFiscal() : DocumentoFiscal&lt;P&gt;" vertex="1">
+          <mxGeometry height="24" width="414.64" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaMatricula_m1" connectable="0" parent="FabricaMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarPagamento() : Pagamento&lt;P&gt;" vertex="1">
+          <mxGeometry height="24" width="414.64" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaMatricula_m2" connectable="0" parent="FabricaMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarComprovante() : ComprovanteMatricula&lt;P&gt;" vertex="1">
+          <mxGeometry height="24" width="414.64" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="DocumentoFiscal" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="149.79" width="393.44" x="1247.26" y="1314.3999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="DocumentoFiscal_fundo" connectable="0" parent="DocumentoFiscal" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="149.79" width="393.44" as="geometry" />
+        </mxCell>
+        <mxCell id="DocumentoFiscal_nome" connectable="0" parent="DocumentoFiscal" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="interface&#xa;DocumentoFiscal&lt;P extends Pais&gt;" vertex="1">
+          <mxGeometry height="52" width="393.44" as="geometry" />
+        </mxCell>
+        <mxCell id="DocumentoFiscal_m0" connectable="0" parent="DocumentoFiscal" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+calcularImposto(valorCurso : double) : double" vertex="1">
+          <mxGeometry height="24" width="393.44" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="DocumentoFiscal_m1" connectable="0" parent="DocumentoFiscal" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+descrever(dados : DadosMatricula) : String" vertex="1">
+          <mxGeometry height="24" width="393.44" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pagamento" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="118.1" width="330.71" x="1640.7" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="Pagamento_fundo" connectable="0" parent="Pagamento" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="118.1" width="330.71" as="geometry" />
+        </mxCell>
+        <mxCell id="Pagamento_nome" connectable="0" parent="Pagamento" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="interface&#xa;Pagamento&lt;P extends Pais&gt;" vertex="1">
+          <mxGeometry height="52" width="330.71" as="geometry" />
+        </mxCell>
+        <mxCell id="Pagamento_m0" connectable="0" parent="Pagamento" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+processar(valorTotal : double) : String" vertex="1">
+          <mxGeometry height="24" width="330.71" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteMatricula" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="118.1" width="336.75" x="2760" y="459.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteMatricula_fundo" connectable="0" parent="ComprovanteMatricula" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="118.1" width="336.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteMatricula_nome" connectable="0" parent="ComprovanteMatricula" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="interface&#xa;ComprovanteMatricula&lt;P extends Pais&gt;" vertex="1">
+          <mxGeometry height="52" width="336.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteMatricula_m0" connectable="0" parent="ComprovanteMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+emitir(dados : DadosMatricula) : String" vertex="1">
+          <mxGeometry height="24" width="336.75" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="465.75" width="731.3" x="1580" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula_fundo" connectable="0" parent="DadosMatricula" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="465.74999999999994" width="731.3" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula_nome" connectable="0" parent="DadosMatricula" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="DadosMatricula" vertex="1">
+          <mxGeometry height="46.185883927907376" width="731.3" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula_m0" connectable="0" parent="DadosMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-aluno : String" vertex="1">
+          <mxGeometry height="27.71153035674443" width="731.3" y="50.80447232069811" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula_m1" connectable="0" parent="DadosMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-curso : String" vertex="1">
+          <mxGeometry height="27.71153035674443" width="731.3" y="78.51600267744254" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula_m2" connectable="0" parent="DadosMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-identificacao : String" vertex="1">
+          <mxGeometry height="27.71153035674443" width="731.3" y="106.22753303418696" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula_m3" connectable="0" parent="DadosMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-valorCurso : double" vertex="1">
+          <mxGeometry height="27.71153035674443" width="731.3" y="133.93906339093138" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula_separador" connectable="0" parent="DadosMatricula" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1.1546470981976844" width="731.3" y="163.9598879440712" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula_m4" connectable="0" parent="DadosMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+DadosMatricula(aluno : String, curso : String, identificacao : String, valorCurso : double)" vertex="1">
+          <mxGeometry height="27.71153035674443" width="731.3" y="170.88777053325728" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula_m6" connectable="0" parent="DadosMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getAluno() : String" vertex="1">
+          <mxGeometry height="27.71153035674443" width="731.3" y="198.60083124674614" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula_m7" connectable="0" parent="DadosMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getCurso() : String" vertex="1">
+          <mxGeometry height="27.71153035674443" width="731.3" y="230.00236160349056" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula_m8" connectable="0" parent="DadosMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getIdentificacao() : String" vertex="1">
+          <mxGeometry height="27.71153035674443" width="731.3" y="257.71389196023506" as="geometry" />
+        </mxCell>
+        <mxCell id="DadosMatricula_m9" connectable="0" parent="DadosMatricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+getValorCurso() : double" vertex="1">
+          <mxGeometry height="27.71153035674443" width="731.3" y="285.4254223169794" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaBrasil" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="181.49" width="448.01" x="949.9999999999999" y="193.76999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaBrasil_fundo" connectable="0" parent="FabricaBrasil" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="181.49" width="448.01" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaBrasil_nome" connectable="0" parent="FabricaBrasil" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="FabricaBrasil" vertex="1">
+          <mxGeometry height="40" width="448.01" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaBrasil_m0" connectable="0" parent="FabricaBrasil" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarDocumentoFiscal() : DocumentoFiscal&lt;Brasil&gt;" vertex="1">
+          <mxGeometry height="24" width="448.01" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaBrasil_m1" connectable="0" parent="FabricaBrasil" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarPagamento() : Pagamento&lt;Brasil&gt;" vertex="1">
+          <mxGeometry height="24" width="448.01" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaBrasil_m2" connectable="0" parent="FabricaBrasil" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarComprovante() : ComprovanteMatricula&lt;Brasil&gt;" vertex="1">
+          <mxGeometry height="24" width="448.01" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="NfseBrasil" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="181.49" width="393.44" x="1820" y="1171.2" as="geometry" />
+        </mxCell>
+        <mxCell id="NfseBrasil_fundo" connectable="0" parent="NfseBrasil" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="181.49" width="393.44" as="geometry" />
+        </mxCell>
+        <mxCell id="NfseBrasil_nome" connectable="0" parent="NfseBrasil" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="NfseBrasil" vertex="1">
+          <mxGeometry height="40" width="393.44" as="geometry" />
+        </mxCell>
+        <mxCell id="NfseBrasil_m0" connectable="0" parent="NfseBrasil" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~NfseBrasil()" vertex="1">
+          <mxGeometry height="24" width="393.44" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="NfseBrasil_m1" connectable="0" parent="NfseBrasil" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+calcularImposto(valorCurso : double) : double" vertex="1">
+          <mxGeometry height="24" width="393.44" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="NfseBrasil_m2" connectable="0" parent="NfseBrasil" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+descrever(dados : DadosMatricula) : String" vertex="1">
+          <mxGeometry height="24" width="393.44" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="PagamentoPix" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="149.79" width="330.71" x="2213.44" y="769.4300000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="PagamentoPix_fundo" connectable="0" parent="PagamentoPix" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="149.79" width="330.71" as="geometry" />
+        </mxCell>
+        <mxCell id="PagamentoPix_nome" connectable="0" parent="PagamentoPix" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="PagamentoPix" vertex="1">
+          <mxGeometry height="40" width="330.71" as="geometry" />
+        </mxCell>
+        <mxCell id="PagamentoPix_m0" connectable="0" parent="PagamentoPix" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~PagamentoPix()" vertex="1">
+          <mxGeometry height="24" width="330.71" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="PagamentoPix_m1" connectable="0" parent="PagamentoPix" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+processar(valorTotal : double) : String" vertex="1">
+          <mxGeometry height="24" width="330.71" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteCpf" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="149.79" width="336.75" x="2340" y="428.06" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteCpf_fundo" connectable="0" parent="ComprovanteCpf" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="149.79" width="336.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteCpf_nome" connectable="0" parent="ComprovanteCpf" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="ComprovanteCpf" vertex="1">
+          <mxGeometry height="40" width="336.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteCpf_m0" connectable="0" parent="ComprovanteCpf" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~ComprovanteCpf()" vertex="1">
+          <mxGeometry height="24" width="336.75" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteCpf_m1" connectable="0" parent="ComprovanteCpf" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+emitir(dados : DadosMatricula) : String" vertex="1">
+          <mxGeometry height="24" width="336.75" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaChile" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="181.49" width="443.98" x="214.02999999999997" y="273.47" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaChile_fundo" connectable="0" parent="FabricaChile" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="181.49" width="443.98" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaChile_nome" connectable="0" parent="FabricaChile" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="FabricaChile" vertex="1">
+          <mxGeometry height="40" width="443.98" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaChile_m0" connectable="0" parent="FabricaChile" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarDocumentoFiscal() : DocumentoFiscal&lt;Chile&gt;" vertex="1">
+          <mxGeometry height="24" width="443.98" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaChile_m1" connectable="0" parent="FabricaChile" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarPagamento() : Pagamento&lt;Chile&gt;" vertex="1">
+          <mxGeometry height="24" width="443.98" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="FabricaChile_m2" connectable="0" parent="FabricaChile" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+criarComprovante() : ComprovanteMatricula&lt;Chile&gt;" vertex="1">
+          <mxGeometry height="24" width="443.98" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="BoletaChile" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="181.49" width="393.44" x="1840.0000000000002" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="BoletaChile_fundo" connectable="0" parent="BoletaChile" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="181.49" width="393.44" as="geometry" />
+        </mxCell>
+        <mxCell id="BoletaChile_nome" connectable="0" parent="BoletaChile" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="BoletaChile" vertex="1">
+          <mxGeometry height="40" width="393.44" as="geometry" />
+        </mxCell>
+        <mxCell id="BoletaChile_m0" connectable="0" parent="BoletaChile" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~BoletaChile()" vertex="1">
+          <mxGeometry height="24" width="393.44" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="BoletaChile_m1" connectable="0" parent="BoletaChile" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+calcularImposto(valorCurso : double) : double" vertex="1">
+          <mxGeometry height="24" width="393.44" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="BoletaChile_m2" connectable="0" parent="BoletaChile" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+descrever(dados : DadosMatricula) : String" vertex="1">
+          <mxGeometry height="24" width="393.44" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="PagamentoWebpay" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="149.79" width="330.71" x="2210" y="970.0000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="PagamentoWebpay_fundo" connectable="0" parent="PagamentoWebpay" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="149.79" width="330.71" as="geometry" />
+        </mxCell>
+        <mxCell id="PagamentoWebpay_nome" connectable="0" parent="PagamentoWebpay" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="PagamentoWebpay" vertex="1">
+          <mxGeometry height="40" width="330.71" as="geometry" />
+        </mxCell>
+        <mxCell id="PagamentoWebpay_m0" connectable="0" parent="PagamentoWebpay" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~PagamentoWebpay()" vertex="1">
+          <mxGeometry height="24" width="330.71" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="PagamentoWebpay_m1" connectable="0" parent="PagamentoWebpay" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+processar(valorTotal : double) : String" vertex="1">
+          <mxGeometry height="24" width="330.71" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteRut" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="149.79" width="336.75" x="3180" y="459.7499999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteRut_fundo" connectable="0" parent="ComprovanteRut" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="149.79" width="336.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteRut_nome" connectable="0" parent="ComprovanteRut" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="ComprovanteRut" vertex="1">
+          <mxGeometry height="40" width="336.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteRut_m0" connectable="0" parent="ComprovanteRut" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="~ComprovanteRut()" vertex="1">
+          <mxGeometry height="24" width="336.75" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ComprovanteRut_m1" connectable="0" parent="ComprovanteRut" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+emitir(dados : DadosMatricula) : String" vertex="1">
+          <mxGeometry height="24" width="336.75" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_0" edge="1" parent="1" source="Brasil" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.58195;exitPerimeter=1;entryX=1.00000;entryY=0.34798;entryPerimeter=1;" target="Pais" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_1" edge="1" parent="1" source="Chile" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.42808;exitPerimeter=1;entryX=1.00000;entryY=0.65202;entryPerimeter=1;" target="Pais" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_2" edge="1" parent="1" source="FabricaBrasil" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="FabricaMatricula" value="">
+          <mxGeometry relative="1" x="-0.0023" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1174.01" y="390" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relacao_4" edge="1" parent="1" source="PagamentoPix" style="rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00120;exitY=0.99843;exitPerimeter=1;entryX=1.00000;entryY=0.51845;entryPerimeter=1;" target="Pagamento" value="">
+          <mxGeometry relative="1" x="-0.0011" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_5" edge="1" parent="1" source="ComprovanteCpf" style="rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="ComprovanteMatricula" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_10" edge="1" parent="1" source="FabricaChile" style="rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.465;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="FabricaMatricula" value="">
+          <mxGeometry relative="1" x="-0.0016" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="430" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relacao_11" edge="1" parent="1" source="BoletaChile" style="rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.64653;exitPerimeter=1;entryX=1.002;entryY=0.598;entryPerimeter=0;entryDx=0;entryDy=0;" target="DocumentoFiscal" value="">
+          <mxGeometry relative="1" x="0.0083" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relacao_12" edge="1" parent="1" source="PagamentoWebpay" style="rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.00000;exitY=0.30577;exitPerimeter=1;entryX=1.00000;entryY=0.40749;entryPerimeter=1;" target="Pagamento" value="">
+          <mxGeometry relative="1" x="0.0008" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_13" edge="1" parent="1" source="ComprovanteRut" style="rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="ComprovanteMatricula" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_19" edge="1" parent="1" source="Matricula" style="rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=0;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.66852;exitY=1.00000;exitPerimeter=1;" target="DocumentoFiscal" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_20" edge="1" parent="1" source="Matricula" style="rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=0;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.97667;exitY=1.00000;exitPerimeter=1;entryX=0.00000;entryY=0.77299;entryPerimeter=1;" target="Pagamento" value="1">
+          <mxGeometry relative="1" x="0.0007" as="geometry" />
+        </mxCell>
+        <mxCell id="relacao_23" edge="1" parent="1" source="Matricula" style="rounded=0;html=0;endArrow=open;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1.00000;exitY=0.08527;exitPerimeter=1;entryX=0.01336;entryY=1.00000;entryPerimeter=1;" target="DadosMatricula" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Matricula" parent="1" style="group;connectable=1;recursiveResize=1;" value="" vertex="1">
+          <mxGeometry height="244.88" width="368.11" x="1220" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Matricula_fundo" connectable="0" parent="Matricula" style="rounded=0;html=0;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="244.88" width="368.11" as="geometry" />
+        </mxCell>
+        <mxCell id="Matricula_nome" connectable="0" parent="Matricula" style="rounded=0;html=0;fillColor=#F0F0F0;strokeColor=#222222;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=1;whiteSpace=wrap;" value="Matricula&lt;P extends Pais&gt;" vertex="1">
+          <mxGeometry height="40" width="368.11" as="geometry" />
+        </mxCell>
+        <mxCell id="Matricula_m0" connectable="0" parent="Matricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-documentoFiscal : DocumentoFiscal&lt;P&gt;" vertex="1">
+          <mxGeometry height="24" width="368.11" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Matricula_m1" connectable="0" parent="Matricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-pagamento : Pagamento&lt;P&gt;" vertex="1">
+          <mxGeometry height="24" width="368.11" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Matricula_m2" connectable="0" parent="Matricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="-comprovante : ComprovanteMatricula&lt;P&gt;" vertex="1">
+          <mxGeometry height="24" width="368.11" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Matricula_separador" connectable="0" parent="Matricula" style="line;strokeColor=#222222;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="368.11" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Matricula_m3" connectable="0" parent="Matricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+Matricula(fabrica : FabricaMatricula&lt;P&gt;)" vertex="1">
+          <mxGeometry height="24" width="368.11" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="Matricula_m4" connectable="0" parent="Matricula" style="text;html=0;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontFamily=Arial;fontSize=14;fontStyle=0;strokeColor=none;fillColor=none;whiteSpace=nowrap;overflow=visible;" value="+confirmar(dados : DadosMatricula) : String" vertex="1">
+          <mxGeometry height="24" width="368.11" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="XkIAn0Cxkb9i-zaSa9UZ-5" edge="1" parent="1" source="NfseBrasil" style="rounded=0;html=0;endArrow=block;endFill=0;endSize=14;startArrow=none;dashed=1;dashPattern=6 4;strokeColor=#333333;strokeWidth=1;fontFamily=Arial;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="DocumentoFiscal" value="">
+          <mxGeometry relative="1" x="0.0083" y="-4" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2495" y="1558" as="sourcePoint" />
+            <mxPoint x="1840" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
